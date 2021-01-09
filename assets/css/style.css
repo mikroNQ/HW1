@@ -1,0 +1,170 @@
+body {
+  width: 100%;
+  max-width: 1366px;
+
+  margin: 0;
+  font-family: 'Gilroy';
+  font-size: 16px;
+  line-height: 1.6;
+  color: #242424;
+
+  background-color: #f1f1f1;
+  background: url(../images/dog.png) no-repeat top 0 right 166px;
+  
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* ===========BUTTON=========== */
+
+.btn {
+  max-width: 182px;
+  height: 42px;
+
+
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+
+  padding: 9px 33px;
+
+  border-radius: 58px;
+  background-color: #FBC832;
+  transition: background-color .2s linear;
+}
+
+.btn:hover {
+  background-color: #FFDF86;
+}
+
+.btn:active {
+  background-color: #FFBB0C;
+}
+
+
+
+/* ============Container=========== */
+
+.container {
+  width: 100%;
+  max-width: 1146px;
+  margin: 0 auto;
+}
+
+
+/* ============HEADER========= */
+
+.header {
+  width: 100%;
+  padding-top: 39px;
+  z-index: 100;
+} 
+
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1049px;
+  
+  align-items: center;
+
+  margin-bottom: 76px;
+  
+}
+
+
+
+.social__contacts__item {
+  margin-right: 28px;
+}
+
+.social__contacts__item:last-child {
+  margin-right: 0;
+}
+
+
+
+
+/* ==========NAV============ */
+
+.nav {
+  width: 100%;
+  max-width: 635px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list__link {
+  display: inline-block;
+  text-decoration: none;
+  color: #242424;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 28px;
+}
+
+.nav__list__link:last-child {
+  margin-right: 0;
+}
+
+/* ==========INTRO===== */
+
+.intro {
+  max-width: 659px;
+}
+
+.intro p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 43px;
+  margin-top: 0;
+}
+
+.intro__title {
+  font-size: 72px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.inntro__cat {
+  position: absolute;
+  left: 608px;
+  bottom: -150px;
+  z-index: 1;
+}
+
+.intro__description {
+  display: block;
+  max-width: 428px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #C78100;
+
+  margin-bottom:  44px;
+}
+
+
+
