@@ -1,8 +1,7 @@
 body {
   width: 100%;
   max-width: 1366px;
-
-  margin: 0 auto;
+  margin: 0;
   font-family: 'Gilroy';
   font-size: 16px;
   line-height: 1.6;
@@ -80,7 +79,7 @@ ul, ol {
   position: relative;
   background: url(../images/dog.png) no-repeat top 0 right 110px;
   height: 713px;
-
+  margin-bottom: 175px;
 }
 
 .intro__cat {
@@ -89,6 +88,9 @@ ul, ol {
   bottom: -250px;
   z-index: 1;
 }
+
+
+
 
 /* ============HEADER========= */
 
@@ -153,7 +155,7 @@ ul, ol {
   max-width: 659px;
 }
 
-.intro p {
+.intro__title__text {
   font-size: 16px;
   font-weight: 600;
   color: #474747;
@@ -190,4 +192,67 @@ ul, ol {
   height: 720px;
   margin-top: 326px;
   background: url(../images/dog.png);
+}
+
+
+/* =============Preview========== */
+
+.preview {
+  width: 100%;
+}
+
+.preview__wrapper {
+  display: flex;
+}
+
+.preview__col-left {
+  background-color: #FFC41E;
+  width: 343px;
+  height: 521px;
+  margin-right: 350px;
+}
+
+.preview__dog {  
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  border: 30px solid #FFC41E;
+  left: 95px;
+}
+
+.preview__cat {
+  position: relative;
+  bottom: 50%;
+  left: 50%;
+  border-radius: 50%;
+  border: 9px solid #FFC41E
+}
+
+
+
+.preview__col-right {
+  width: 100%;  
+  max-width: 466px;
+  padding-top: 120px;
+  
+}
+
+.preview__title {
+font-weight: 600;
+font-size: 28px;
+line-height: 120%;
+
+text-align: center;
+
+color: #C78100;
+}
+
+.preview__text {
+  font-size: 16px;
+  line-height: 140%;
+  color: #242424;
+}
+
+.preview__text span {
+  text-transform: uppercase;
 }
