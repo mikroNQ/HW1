@@ -1,7 +1,7 @@
 body {
   width: 100%;
-  /* max-width: 1366px; */
-  margin: 0;
+  max-width: 1366px;
+  margin: 0 auto;
   font-family: 'Gilroy';
   font-size: 16px;
   line-height: 1.6;
@@ -224,19 +224,28 @@ ul, ol {
   max-width: 659px;
 }
 
-.intro__title__text {
+.intro__p-1 {
+  font-weight: 300;
   font-size: 16px;
-  font-weight: 600;
-  color: #474747;
-  margin-bottom: 43px;
   margin-top: 0;
+
+  color: #6B6B6B;
+}
+
+.intro__p-2 {
+  font-weight: 600;
+  font-size: 16px;
+
+  color: #474747;
+
+  margin-bottom: 43px;
 }
 
 .intro__title {
+  font-weight: bold;
   font-size: 72px;
-  font-weight: 700;
+  line-height: normal;
   text-transform: uppercase;
-  font-style: normal;
 }
 
 
@@ -499,7 +508,7 @@ color: #C78100;
 }
 
 .animals__item {
-  width: 31%;
+  width: 32%;
   border: 1px solid #D6D6D6;
   box-sizing: border-box;
   border-radius: 5px;
