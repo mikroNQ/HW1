@@ -322,14 +322,13 @@ color: #C78100;
 
 .decor__item {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 
 
-.decor__line {
+.decor__img {
   display: block;
-  background: url(../images/line-dog/1.svg) no-repeat center;
-  height: 144px;
+  height: auto;
   margin: 0 auto;
   padding: 0 32px;
 }
@@ -341,7 +340,7 @@ color: #C78100;
   z-index: 1;
 
   height: 1px;
-  width: 40%;
+  width: 43%;
   background-color: #FFC41E;
   left: 0;
   top: 50%;
@@ -355,9 +354,51 @@ color: #C78100;
   z-index: 1;
 
   height: 1px;
-  width: 40%;
+  width: 43%;
   background-color: #FFC41E;
 
   top: 50%;
   right: 0;
+}
+
+
+
+/* ==============Search__Home============ */
+
+.search__home {
+
+}
+
+.search__wrapper {
+  width: 100%;
+  max-width: 875px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+
+.search__col {
+  width: 100%;
+  max-width: 389px;
+}
+
+.search__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+
+  color: #242424;
+}
+
+
+.search__text {
+  font-size: 16px;
+  line-height: 140%;
+
+  color: #242424;
 }
