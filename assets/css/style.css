@@ -63,6 +63,75 @@ ul, ol {
 
 
 
+.btn-primary {
+  display: block;
+  border: solid transparent;
+  border-radius: 58px;
+  outline: none;
+  
+  padding: 5px 32px;
+
+  margin: 0 auto;
+  text-decoration: none;
+  background: #FBC832;
+  color: #242424;
+
+  font-family: 'Gilroy';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+
+  cursor: pointer;
+  text-align: center;
+
+  transition: all .2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #FFDF86;
+}
+
+.btn-primary:active {
+  background-color: #FFBB0C;
+}
+
+
+.btn-secondary {
+  display: block;
+  border: 2px solid #FFC41E;
+  border-radius: 42px;
+  outline: none;
+  
+  padding: 5px 32px;
+
+  margin: 10px auto;
+  text-decoration: none;
+  background: transparent;
+  color: #242424;
+
+  font-family: 'Gilroy';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+
+  cursor: pointer;
+  text-align: center;
+
+  transition: all .1s ease;
+}
+
+.btn-secondary:hover {
+  border: 3px solid #FFBC00;
+  
+}
+
+.btn-secondary:active {
+  background: rgba(255, 196, 30, .2);
+}
+
+
+
+
 /* ============Container=========== */
 
 .container {
@@ -293,7 +362,6 @@ color: #C78100;
 
 .help__item {
   
-
 }
 
 .help__photo {
@@ -331,6 +399,7 @@ color: #C78100;
   height: auto;
   margin: 0 auto;
   padding: 0 32px;
+
 }
 
 .decor__line::before {
@@ -340,7 +409,7 @@ color: #C78100;
   z-index: 1;
 
   height: 1px;
-  width: 43%;
+  width:43%;
   background-color: #FFC41E;
   left: 0;
   top: 50%;
@@ -366,7 +435,7 @@ color: #C78100;
 /* ==============Search__Home============ */
 
 .search__home {
-
+  margin-bottom: 72px;
 }
 
 .search__wrapper {
@@ -376,21 +445,18 @@ color: #C78100;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
-  margin-bottom: 72px;
 }
 
 .search__col {
-  width: 100%;
+  width: 50%;
   max-width: 389px;
+  padding: 1%;
 }
 
 .search__title {
   font-weight: 600;
   font-size: 28px;
   line-height: 24px;
-
-  display: flex;
-  align-items: center;
 
   color: #242424;
 }
@@ -402,3 +468,79 @@ color: #C78100;
 
   color: #242424;
 }
+
+
+
+/* ===========Animals=========== */
+
+.animals {
+
+}
+
+.animals__title {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #242424;
+
+  margin-bottom: 32px;
+}
+
+.animals__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.animals__list {
+
+}
+
+.animals__item {
+  width: 31%;
+  border: 1px solid #D6D6D6;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 16px 16px 0 16px;
+  margin-bottom: 20px;
+}
+
+.animals__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.animals__subtitle {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  
+  text-align: center;
+  margin-top: 8px;
+  padding-bottom: 10px;
+  color: #242424;
+
+  border-bottom: 1px solid #D6D6D6;
+}
+
+.animals__info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 8px 0 6px 0;
+  color: #6B6B6B;
+}
+
+.animals__text {
+  
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+
+  color: #242424;
+}
+
