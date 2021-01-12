@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  max-width: 1366px;
+  /* max-width: 1366px; */
   margin: 0;
   font-family: 'Gilroy';
   font-size: 16px;
@@ -204,6 +204,7 @@ ul, ol {
 
 .preview__wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .preview__col-left {
@@ -277,11 +278,13 @@ color: #C78100;
 .help__list {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .help__col {
   width: 166px;
   margin: 0 79px 30px 0;
+  
 }
 
 .help__col:last-child {
@@ -304,7 +307,7 @@ color: #C78100;
   text-align: center;
 }
 
-.help__item-text {
+.help__text {
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;
@@ -312,4 +315,49 @@ color: #C78100;
   text-align: center;
 
   color: #474747;
+}
+
+/* ==========DECOR========= */
+
+
+.decor__item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+
+.decor__line {
+  display: block;
+  background: url(../images/line-dog/1.svg) no-repeat center;
+  height: 144px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.decor__line::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+
+  height: 1px;
+  width: 40%;
+  background-color: #FFC41E;
+  left: 0;
+  top: 50%;
+
+}
+
+.decor__line::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+
+  height: 1px;
+  width: 40%;
+  background-color: #FFC41E;
+
+  top: 50%;
+  right: 0;
 }
