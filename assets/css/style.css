@@ -119,16 +119,16 @@ ul, ol {
   cursor: pointer;
   
 
-  transition: all .2s ease;
+  transition: all .1s linear;
 }
 
 .btn-secondary:hover {
-  border-color: #d6a82a;
-  border: 2px solid #d6a82a;
+  border: 3px solid #FFBC00;
+  padding: 4px 31px;
 }
 
 .btn-secondary:active {
-  background: rgba(255, 196, 30, .2);
+  background: rgba(219, 166, 20, 0.2);
 }
 
 
@@ -510,7 +510,7 @@ color: #C78100;
   flex-direction: column;
   max-width: 368px; 
   flex: 1 1 33.333%;
-  
+  margin-bottom: 64px;
 }
 
 .animals__item {
@@ -551,15 +551,12 @@ color: #C78100;
 }
 
 .animals__text {
-  
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 20px;
 
   color: #242424;
-
-  
 }
 
 
