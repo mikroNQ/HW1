@@ -64,7 +64,7 @@ ul, ol {
 
 .btn-primary {
   display: block;
-  border: solid transparent;
+  border: none;
   border-radius: 58px;
   outline: none;
   
@@ -78,7 +78,7 @@ ul, ol {
   font-family: 'Gilroy';
   font-size: 20px;
   font-weight: 500;
-  line-height: 25px;
+  line-height: 32px;
 
   cursor: pointer;
   text-align: center;
@@ -100,6 +100,13 @@ ul, ol {
   border: 2px solid #FFC41E;
   border-radius: 42px;
   outline: none;
+
+  font-family: 'Gilroy';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+
   
   padding: 5px 32px;
 
@@ -108,20 +115,16 @@ ul, ol {
   background: transparent;
   color: #242424;
 
-  font-family: 'Gilroy';
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 25px;
-
+  
   cursor: pointer;
-  text-align: center;
+  
 
-  transition: all .1s ease;
+  transition: all .2s ease;
 }
 
 .btn-secondary:hover {
   border-color: #d6a82a;
-  
+  border: 2px solid #d6a82a;
 }
 
 .btn-secondary:active {
@@ -482,7 +485,7 @@ color: #C78100;
 /* ===========Animals=========== */
 
 .animals {
-
+  margin-bottom: 20px;
 }
 
 .animals__title {
@@ -499,22 +502,25 @@ color: #C78100;
 .animals__wrapper {
   display: flex;
   flex-wrap: wrap;
-  
+  justify-content: center;
 }
 
-.animals__list {
-
+.animals__col {
+  display: flex;
+  flex-direction: column;
+  max-width: 368px; 
+  flex: 1 1 33.333%;
+  
 }
 
 .animals__item {
-  
-  width: 368px; 
-  
   border: 1px solid #D6D6D6;
-  box-sizing: border-box;
   border-radius: 5px;
+
   padding: 16px 16px 0 16px;
-  margin: 5px 5px 5px 5px;
+  margin: 5px 5px 20px 5px;
+
+  flex: 1 1 auto;
 }
 
 .animals__img {
@@ -552,5 +558,9 @@ color: #C78100;
   margin-bottom: 20px;
 
   color: #242424;
+
+  
 }
+
+
 
