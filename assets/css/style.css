@@ -120,7 +120,7 @@ ul, ol {
 }
 
 .btn-secondary:hover {
-  border: 3px solid #FFBC00;
+  border-color: #d6a82a;
   
 }
 
@@ -499,7 +499,7 @@ color: #C78100;
 .animals__wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  
 }
 
 .animals__list {
@@ -507,12 +507,14 @@ color: #C78100;
 }
 
 .animals__item {
-  width: 32%;
+  
+  width: 368px; 
+  
   border: 1px solid #D6D6D6;
   box-sizing: border-box;
   border-radius: 5px;
   padding: 16px 16px 0 16px;
-  margin-bottom: 20px;
+  margin: 5px 5px 5px 5px;
 }
 
 .animals__img {
