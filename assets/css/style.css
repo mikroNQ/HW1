@@ -4,7 +4,6 @@ body {
   margin: 0 auto;
   font-family: 'Gilroy';
   font-size: 16px;
-  line-height: 1.6;
   color: #242424;
   background-color: #ffffff;
   
@@ -153,7 +152,7 @@ ul, ol {
 
 .intro__cat {
   position: absolute;
-  left: 600px;
+  right: 276px;
   bottom: -250px;
   z-index: 1;
 }
