@@ -602,3 +602,100 @@ color: #C78100;
 .animals__soc-link:first-child {
   margin-left: 0;
 }
+
+
+
+/* =========FINANCE========= */
+
+.finance {
+  margin-bottom: ;
+}
+
+.finance__inner {
+  margin: 0 auto 40px;
+  width: 100%;
+  max-width: 878px;
+}
+
+.finance__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+
+  color: #242424;
+}
+
+.finance__subtitle {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #6B6B6B;
+}
+
+.finance__wrapper {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.finance__bank {
+  width: 100%;
+  max-width: 389px;
+}
+
+.bank__title {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 24px;
+  margin-bottom: 24px;
+
+  color: #242424;
+}
+
+.finance__title {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #242424;
+}
+
+.bank__info {
+
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+
+  color: #242424;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.bank__bold {
+  font-weight: 700;
+  text-transform: none;
+}
+
+.finance__box {
+  width: 100%;
+  max-width: 392px;
+}
+
+.box__list {
+  list-style-type: decimal;
+  list-style-position:inside
+}
+
+.box__item {
+  font-size: 16px;
+  line-height: 140%;
+  color: #242424;
+}
+
+
