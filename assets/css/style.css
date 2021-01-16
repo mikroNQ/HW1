@@ -1,7 +1,5 @@
 body {
-  width: 100%;
-  max-width: 1366px;
-  margin: 0 auto;
+  
   font-family: 'Gilroy';
   font-size: 16px;
   color: #242424;
@@ -29,8 +27,14 @@ h6 {
 ul, ol {
   margin: 0;
   padding: 0;
-  list-style: none  ;
+  list-style: none;
 }
+
+.page {
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+} 
 
 /* ===========BUTTON=========== */
 
@@ -640,6 +644,7 @@ color: #C78100;
 .finance__wrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   
 }
 
@@ -677,7 +682,7 @@ color: #C78100;
   text-transform: uppercase;
 }
 
-.bank__bold {
+.span__bold {
   font-weight: 700;
   text-transform: none;
 }
@@ -698,4 +703,48 @@ color: #C78100;
   color: #242424;
 }
 
+
+/* =========Support========== */
+
+.support {
+
+}
+
+.support__inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 678px;
+  margin: 0 auto;
+}
+
+.support__feed {
+  margin-bottom: 40px;
+}
+
+.support__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 24px;
+
+  color: #242424;
+
+  margin-bottom: 24px;
+}
+
+
+.support__list li::before {
+  content: "•";
+  margin-right: 5px;
+}
+
+.list__item {
+  font-size: 16px;
+  line-height: 22px;
+  color: #242424;
+}
+
+.support__grey {
+  color: #6F6C6C;
+}
 
