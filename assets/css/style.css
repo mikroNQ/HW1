@@ -38,6 +38,17 @@ ul, ol {
 
 /* ===========BUTTON=========== */
 
+.block__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 24px;
+
+  color: #242424;
+
+  margin-bottom: 24px;
+}
+
+
 .btn {
   max-width: 182px;
   height: 42px;
@@ -461,13 +472,6 @@ color: #C78100;
   padding: 1%;
 }
 
-.search__title {
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 24px;
-
-  color: #242424;
-}
 
 
 .search__text {
@@ -621,14 +625,9 @@ color: #C78100;
   max-width: 878px;
 }
 
-.finance__title {
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 24px;
-  margin-bottom: 24px;
+.block__title-center {
   text-align: center;
 
-  color: #242424;
 }
 
 .finance__subtitle {
@@ -722,15 +721,6 @@ color: #C78100;
   margin-bottom: 40px;
 }
 
-.support__title {
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 24px;
-
-  color: #242424;
-
-  margin-bottom: 24px;
-}
 
 
 .support__list li::before {
@@ -750,4 +740,17 @@ color: #C78100;
 
 .support__medicines {
   margin-bottom: 40px;
+}
+
+
+/* ==========AUTOHELP=========== */
+
+.auto__inner {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.auto__text {
+  margin-bottom: 24px;
 }
