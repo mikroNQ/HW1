@@ -754,3 +754,44 @@ color: #C78100;
 .auto__text {
   margin-bottom: 24px;
 }
+
+
+
+/* =============Volunteering=========== */
+
+.volunteering {
+
+}
+
+.volunteering__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1159px;
+}
+
+.volunteering__left {
+  width: 100%;  
+  max-width: 616px;
+  max-height: 521px;
+
+  background-color: #FFC41E;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  /* margin-right: 77px; */
+  
+}
+
+.volunteering__img {
+  position: relative;
+  left: 129px;
+  border-radius: 50%;
+  border: 23px solid #FFC41E;
+}
+
+.volunteering__right {
+  width: 100%;
+  max-width: 466px;
+  margin-top: 103px;
+}
