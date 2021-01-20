@@ -737,7 +737,7 @@ color: #C78100;
   color: #242424;
 }
 
-.support__grey {
+.span__grey {
   color: #6F6C6C;
 }
 
@@ -872,5 +872,48 @@ color: #C78100;
 
 /* ===========ABOUT=========== */
 
+.about {
 
+}
+
+.about__wrapper {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.about__description {
+
+}
+
+.about__contact-title {
+  display: inline-block;
+  padding: 24px 0;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 0;
+}
+
+
+.about__numb {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 140%;
+
+  color: inherit;
+}
+
+.about__phone-list {
+  padding-top: 10px;
+  margin-bottom: 40px;
+}
+
+.about__numb:hover {
+  text-decoration: underline;
+}
+
+.about_social {
+  display: flex;
+  flex-direction: column;
+}
 
