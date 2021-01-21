@@ -36,6 +36,10 @@ ul, ol {
   margin: 0 auto;
 } 
 
+.bg-grey {
+  background: #f6f6f6;
+}
+
 /* ===========BUTTON=========== */
 
 .block__title {
@@ -412,47 +416,23 @@ color: #C78100;
 
 
 .decor__item {
-  position: relative;
+  display: flex;
+  align-items: center;
   margin: 70px 0 40px;
 }
 
-
-.decor__img {
-  display: block;
-  height: auto;
-  margin: 0 auto;
-  padding: 0 32px;
-
+.decor__icon {
+  background-size: 100% 100%;
 }
 
-.decor__line::before {
+.decor__item::before,
+.decor__item::after {
   content: "";
-  display: block;
-  position: absolute;
-  z-index: 1;
 
+  flex: 1;
   height: 1px;
-  width:43%;
   background-color: #FFC41E;
-  left: 0;
-  top: 50%;
-
 }
-
-.decor__line::after {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: 1;
-
-  height: 1px;
-  width: 43%;
-  background-color: #FFC41E;
-
-  top: 50%;
-  right: 0;
-}
-
 
 
 /* ==============Search__Home============ */
@@ -476,15 +456,12 @@ color: #C78100;
   padding: 1%;
 }
 
-
-
 .search__text {
   font-size: 16px;
   line-height: 140%;
 
   color: #242424;
 }
-
 
 
 /* ===========Animals=========== */
@@ -780,22 +757,21 @@ color: #C78100;
   max-width: 1159px;
 }
 
+
+
 .volunteering__left {
   width: 100%;  
   max-width: 357px;
-  height: 521px; /* 521px */
-  
-  
+  height: 521px; 
 
   background-color: #ffc41e;
 
-  /* margin-right: 77px; */
   margin-bottom: 107px;
 }
 
 .volunteering__left-circle {
   width: 521px;
-  height: 521px; /* 521px */
+  height: 521px; 
 
   position: relative;
   right: -25%;
